@@ -1,0 +1,11 @@
+# 
+# /etc/fstab: static file system information
+#
+# <file system>	<dir>	<type>	<options>	<dump>	<pass>
+
+# cryptroot
+/dev/mapper/cryptroot	/	ext4	defaults,errors=remount-ro	0	2
+
+# /boot
+UUID=32C3-72A3		/boot	vfat	defaults,errors=remount-ro	0	2
+

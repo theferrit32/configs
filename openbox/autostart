@@ -1,0 +1,6 @@
+nitrogen --restore &
+kupfer &
+pnmixer &
+nm-applet &
+tint2 &
+compton -b --config ~/.config/compton.conf && (sleep 0.5)
